@@ -8,41 +8,93 @@ body {
 }
 .topContainer {
   width: 100%;
-  height: 180px;
+  height: 50px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: row-reverse;
 }
-.menu {
-  width: 15%;
+/* .menu {
+  width: auto;
   height: auto;
   background-color: beige;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+} */
+/* .plant {
+  width: auto;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+} */
+/* .menuIcon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 10px;
+} */
+/* .account {
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 255, 46);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+} */
+#button1 {
+  width: 54px;
+  height: 54px;
+  font-size: 30px;
+  margin-left: 25px;
+  display: inline-block;
+  border: none;
+  color: green;
+  background-color: white;
+  cursor: pointer;
 }
-.menuIcon {
+#button2 {
+  width: 54px;
+  height: 54px;
+  font-size: 30px;
+  margin-left: 25px;
+  display: inline-block;
+  border: transparent;
+  color: green;
+  background-color: white;
+  cursor: pointer;
+}
+#button3 {
+  width: 54px;
+  height: 54px;
+  font-size: 30px;
+  border: transparent;
+  display: inline-block;
+  color: green;
+  background-color: white;
+  cursor: pointer;
+}
+/* .accountIcon{
   width: 100px;
   height: 100px;
   display: flex;
-  margin-left: 30px;
-  margin-top: 20px;
-}
+} */
 
-.domp {
+/* .domp {
   width: 70%;
   height: auto;
   background-color: green;
   align-content: center;
   display: flex;
-}
+} */
 #pic1 {
-  width: 100%;
-  height: 100%;
+  width: auto;
   height: auto;
+  display: flex;
 }
-.account {
-  width: 15%;
-  height: auto;
-  background-color: yellow;
-}
+
 .sideMenu {
   width: 28%;
   height: 750px;
@@ -74,7 +126,7 @@ body {
 }
 
 .topics1 {
-  width: 75%;
+  width: 100%;
   height: 40px;
   margin-top: 40px;
   display: flex;
