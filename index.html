@@ -32,11 +32,10 @@
         </button>
       </div>
     </div>
-
     <div class="topImg">
       <img
         id="pic1"
-        src="./toppic.png"
+        src="./resourse/toppic.png"
         alt="toppic"
         style="width: 100%; height: 60%"
       />
@@ -47,7 +46,7 @@
         <div class="pic2">
           <img
             id="picside"
-            src="./plantmap.png"
+            src="./resourse/plantmap.png"
             alt="sidepic"
             style="width: 100%; height: 100%"
           />
@@ -113,42 +112,51 @@
       <div class="midSection">
         <div class="searchSection">
          <div class="search1">
-          <!-- <input type="text" class="input" placeholder="Search..."> -->
-          <select id="input" name="search">
+          <select id="input" name="search" value="">
+            <option disabled selected value> -- select an option -- </option>
             <option value="Bulbus Allii Cepae">Bulbus Allii Cepae</option>
             <option value="Bulbus Allii Sativi">Bulbus Allii Sativi</option>
             <option value="Aloe">Aloe</option>
-            <option value="AloeVeraGel">Aloe Vera Gel</option>
-            <option value="RadixAstragali">Radix Astragali</option>
-            <option value="FructusBruceae">Fructus Bruceae</option>
-            <option value="RadixBupleuri">Radix Bupleuri</option>
-            <option value="HerbaCentellae">Herba Centellae</option>
-            <option value="FlosChamomillae">Flos Chamomillae</option>
-            <option value="CortexCinnamomi">Cortex Cinnamomi</option>
-            <option value="RhizomaCoptidis">Rhizoma Coptidis</option>
-            <option value="RhizomaCurcumae Longae">Rhizoma Curcumae Longae</option>
+            <option value="Aloe Vera Gel">Aloe Vera Gel</option>
+            <option value="Radix Astragali">Radix Astragali</option>
+            <option value="Fructus Bruceae">Fructus Bruceae</option>
+            <option value="Radix Bupleuri">Radix Bupleuri</option>
+            <option value="Herba Centellae">Herba Centellae</option>
+            <option value="Flos Chamomillae">Flos Chamomillae</option>
+            <option value="Cortex Cinnamomi">Cortex Cinnamomi</option>
+            <option value="Rhizoma Coptidis">Rhizoma Coptidis</option>
+            <option value="Rhizoma Curcumae Longae">Rhizoma Curcumae Longae</option>
             <option value="RadixEchinaceae">Radix Echinaceae</option>
           </select>
         </div> 
          <div class="search2">
-          <button id="button4">Search </button>
+          <button id="button4">Search</button>
         </div>
         </div>       
         <div class="result">
-          <p ><input id="pname" type="text"></p>
-          <p ><input id="pDefinition"type="text"></p>
-          <p ><input id="pSynonyms" type="text"></p>
-          <p ><input id="pDescription"type="text"></p>
-          <p ><input id="pPlantMaterialOfInterest" type="text"></p>
-          <p ><input id="pGeneralAppearance" type="text"></p>
-          <p ><input id="pGeographicalDistribution" type="text"></p>
-          <p id="pMedicinalUses"><input type="text"></p>
+          <p id="name"> </p>          
+          <p id="Definition"></p>
+          <p id="Synonyms"></p>
+          <p id="Description"></p>
+          <p id="PlantMaterialOfInterest"></p>
+          <p id="GeneralAppearance"></p>
+          <p id="GeographicalDistribution"></p>
+          <p id="MedicinalUses"></p>
         </div>
       </div>        
         <div class="picBox"></div>
-        <script src="./domp.js"></script>
+        <script src="./dompFront.js"></script>
       </div>
-      <div class="picBox"></div>
+      <div class="picBox">
+        <div class="plantPic1">
+          <img id="img1" src="" alt="">
+        </div>
+        <div class="plantPic2">
+          <img id="img2" src="" alt="">
+        </div>
+        <div class="plantPic3">  
+          <img id="img3" src="" alt=""></div>
+      </div>
     </div>
   </body>
 </html>
