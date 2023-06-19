@@ -227,22 +227,22 @@ body {
   height: 800px;
   background-color: rgb(0, 0, 0);
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
 
 .plantPic1 {
-  width: 90%;
-  height: 100px;
+  /* width: 90%; */
+  height: 50px;
   padding: 50px;
   padding: 20px;
 }
 .plantPic2 {
-  width: 90%;
-  height: 200px;
+  /* width: 90%; */
+  height: 50px;
   margin-bottom: 100px;
 }
 .plantPic3 {
-  width: 90%;
-  height: 200px;
+  /* width: 90%; */
+  height: 50px;
   margin-bottom: 100px;
 }
